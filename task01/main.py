@@ -106,8 +106,6 @@ async def main():
         return
 
     await output_folder.mkdir(exist_ok=True, parents=True)
-
-
     print(f"Сортування файлів з папки: {source}")
     print(f"Файли будуть розміщені у папці: {output_folder}")
     logging.info(f"Початок сортування файлів з папки {source} до {output_folder}")
